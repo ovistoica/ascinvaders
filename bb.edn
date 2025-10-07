@@ -1,0 +1,4 @@
+{:min-bb-version "0.4.9"
+ :tasks
+ {test {:doc "Run all tests"
+        :task (clojure "-M:dev:test -m kaocha.runner")}}}
